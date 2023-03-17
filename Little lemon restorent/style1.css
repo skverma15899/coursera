@@ -1,0 +1,211 @@
+*{
+     padding: 0;
+     margin: 0
+     ;
+     box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif; 
+    background-color: #DAEAF1;
+    /* justify-content: center; */
+margin:0 5%;
+}
+
+.container{
+              margin: 0 34px;
+
+}
+
+.logo{
+     justify-content: center;
+     text-align: center;
+     
+}
+.logo img{
+        
+        width: 400px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        
+
+}
+.nav{
+     
+         margin: 0 34px;
+       
+
+         
+}
+
+.nav ul{
+         display: flex;
+         gap: 15px;
+         list-style-type: none;
+       justify-content: center;
+       background-color:#473C33;
+       padding: 10px 0;
+       
+       border-radius: 20px;
+         
+}
+
+
+.nav ul li a{
+        text-decoration: none;
+        color: aliceblue;
+        
+}
+
+.box{
+          display: flex;
+          flex-direction: row;
+          width: 1200px;
+          height: 250px;
+          justify-content: center;
+          
+     
+     
+}
+
+      
+
+.bg-image{
+
+     margin: 34px;
+             
+             color:#ffffff;
+            align-items: center;
+            border-radius: 20px;
+            background-image:
+                     linear-gradient(to right,
+                    rgba(0,0,0, 0.3),
+                    rgba(0,0,0, 0.3))
+                    , url(./assests/MACRONI.JPG);
+            background-repeat: no-repeat;
+            background-position:center;
+            
+          
+
+}
+.bg-image h1{
+
+      margin: 14px ;
+      margin-left: 14px;
+      color: aliceblue;
+      filter: brightness(1)
+
+      
+}
+
+.bg-image p{
+     margin-left: 14px;
+     color: aliceblue;
+     text-align:left;
+     margin-top: 14px;
+     font-size: 14px;
+     width: 76%;
+     padding-top: 28px;
+     
+}
+
+
+.container-menu{
+            
+            border-radius: 20px;
+
+            display: flex;
+            flex-direction: row;
+            width: 1200px;
+            justify-content: center;
+            
+}
+
+   .box1,.box2,.box3{
+     
+    height: 500px;
+    width: 370px;
+    border-radius: 20px;
+    margin-left: 14px;
+    background-color: #FFE5F1;
+    
+
+
+}
+    .box1-img{
+
+     display: flex;
+     
+
+     
+}
+
+h2{
+     color:black;
+     margin-left: 16px;
+     margin:20px ;
+}
+.box1-img img {  
+
+     width: 300px;
+     height: 155px;
+     margin-left: 16px;
+     
+
+}
+ p{
+      margin-top: 20px;
+     margin:  16px;
+      /* padding-right: 14px; */
+      
+}
+.button{
+      margin-left: 14px;
+      margin-top: 20px;
+      list-style-type: none;
+}
+.button li a{
+   font-size: 15px;
+   color: blue;
+   
+   font-weight: bold;
+}
+.paragrap2{
+              padding-left: 30px;
+              font-size: 14px;
+          
+}
+.container-ft{
+         display: flex;
+         flex-direction:row;
+         margin-top: 25px;
+         margin-bottom: 40px;
+         justify-content: space-between;
+         
+}
+ img{
+      height: 120px;
+      width: 100px;
+      margin-left: 50px;
+ }
+
+.para1{
+          border-top: 2px solid black ;
+          border-width: 50%;
+}
+
+.box5{
+       /* border: 2px solid red; */
+       width: 600px;
+       text-align: right;
+     
+}
+
+.box5>p{
+
+     margin-right: 55px;
+     border-top: 2px solid black;
+     
+
+           
+}
